@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyMasterPages.master.cs" Inherits="AspDotNet_Arif.MasterPages.MyMasterPages" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <img src="../Images/IslamiBank.jpg" />
+            </header>
+            <nav>
+
+            </nav>
+            <section>
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                 </asp:ContentPlaceHolder>
+            </section>
+            <aside>
+
+            </aside>
+            <footer>
+
+            </footer>
+           
+        </div>
+    </form>
+</body>
+</html>
